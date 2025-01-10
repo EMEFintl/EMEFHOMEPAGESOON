@@ -6,8 +6,21 @@
     <body style="background-color:antiquewhite;"></body>
 </head>
 <body>
-    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:10px">current frame of existence: <p id="datetime"> </p> 
-    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:110px">EMEFintl.</p>
+    <center> 
+    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:30px">current frame of existence:
+        <p id="datetime"> </p> 
+        <script> 
+        var now = new Date(); 
+        var datetime = now.toLocaleString();
+        
+        document.getElementById("datetime").innerHTML = datetime;
+        </script>
+
+
+    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px">EMEFintl.com</p>
     </p>
+
+
+</center>
 </body>
 </html>
