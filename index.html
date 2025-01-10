@@ -4,9 +4,27 @@
     <meta charset="UTF-8" />
     <title>EMEFINTERNATIONALE</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-    <body style="background-color:rgb(255, 241, 223);"></body>
+    <body style="background-color:rgb(000, 000, 200);"></body>
+    
 </head>
 <style> 
+        .background {
+            position: absolute;  
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: -1; 
+            opacity: 1; 
+        }
+        .content {
+            position: relative;
+            text-align: center;
+            padding-top: 20%;
+            font-size: 2rem;
+            color: white;
+        }
+
 p.small {
     line-height: 0.2;
 
@@ -18,45 +36,54 @@ p.big {
 }
 </style>
 <body>
-    <br>
-<br>
-<br>
 
-    <center> 
-        <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:25px" p class="small"> current frame of existence:
-        
-        <p style=font-size:20px;  id="datetime"; p class="small"> 
+    <div class="background"> 
+        <center>
+    <br>
+
+        <img src="https://raw.githubusercontent.com/EMEFintl/EMEFHOMEPAGESOON/refs/heads/main/images/allen.jpg">
+        <br>
+    </center>
+    </div>
+
+<div class="content">
+    <center>
+    
+        <div class="overlay">
+    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:25px", p style="background-color:rgb(000, 000, 200)" p class="small"><p style="text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);"> current frame of existence:
+        <p style=font-size:20px; p style="text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.7);" id="datetime"; p class="small"> 
         <script> 
+
         var now = new Date(); 
         var datetime = now.toLocaleString();
         
         document.getElementById("datetime").innerHTML = datetime;
+
         </script>
-        </p>
-
-<br>
-<br>
+        </p> 
+    </div>
 <br>
 <br>
 
-<img src="https://raw.githubusercontent.com/EMEFintl/EMEFHOMEPAGESOON/refs/heads/main/images/logoemefstars.png" width="336">
 
-    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px"; p class:"small">EMEFintl.com - Coming Soon</p>
+<img src="https://raw.githubusercontent.com/EMEFintl/EMEFHOMEPAGESOON/refs/heads/main/images/logoemefstarswhite.png" width="336">
+
+    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:20px" <p class:"small"> EMEFintl.com - Coming Soon </p>
     </p>
 <br>
 <p>until then....</p>
 <a href="https://open.spotify.com/track/7Mo06fyaDh6FYm1ApHMqdy?si=85340d0ddce94e3e">
-    <button> <p style="font-family:CourierNew, font-szie:10px">"2001"-Nasenbluten feat. Kuchemann [2024]</button>
+    <button> <p style="font-family:CourierNew, font-szie=10px">"2001"-Nasenbluten feat. Kuchemann [2024]</button>
 </a>
         <br>
 <a href="https://emefintl.itch.io/hozan">
-    <button> <p style="font-family:CourierNew, font-szie:10px">HOZAN FOTZINE [2024]</button>
+    <button> <p style="font-family:CourierNew, font-szie=10px">HOZAN FOTZINE [2024]</button>
 </a>
         <br>
     <a href="https://www.instagram.com/nasenblut/">
-    <button> <p style="font-family:CourierNew, font-szie:10px">NASENBLUTEN</button>
+    <button> <p style="font-family:CourierNew, font-szie=10px">NASENBLUTEN</button>
 </a>
 </center>
+</div>
 </body>
 </html>
-
